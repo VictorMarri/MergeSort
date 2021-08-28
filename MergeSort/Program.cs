@@ -36,8 +36,6 @@ namespace MergeSort
                 MergeSort(conjuntoDesordenado.Slice(centro));
                 Merge(conjuntoDesordenado, centro);
             }
-
-            
         }
 
         private static void Merge(Span<int> resultado, int comecoDoLadoDireito)
